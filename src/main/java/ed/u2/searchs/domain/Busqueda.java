@@ -4,7 +4,7 @@ import ed.u2.searchs.model.Nodo;
 
 public class Busqueda {
 
-    // ultima ocurrencia en array
+
     public static int ultimaOcurrenciaArray(int[] a, int key) {
         if (a == null) return -1;
 
@@ -17,7 +17,7 @@ public class Busqueda {
         return last;
     }
 
-    // ultima ocurrencia en lista enlazada
+
     public static Nodo ultimaOcurrenciaSLL(Nodo head, int key) {
         Nodo actual = head;
         Nodo last = null;
