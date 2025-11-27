@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="297dfe50-d1da-4449-921a-c623d1bda444" name="Changes" comment="Paso 2" />
+    <list default="true" id="297dfe50-d1da-4449-921a-c623d1bda444" name="Changes" comment="Paso 2">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ed/u2/searchs/domain/Busqueda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ed/u2/searchs/view/Test_Busqueda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ed/u2/searchs/Searchs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ed/u2/searchs/Searchs.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +62,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "mateo",
+    "git-widget-placeholder": "Merging mateo",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -78,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test_Busqueda" />
         <item itemvalue="Application.Test_Busqueda" />
       </list>
     </recent_temporary>

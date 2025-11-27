@@ -10,5 +10,5 @@ package ed.u2.searchs;
  */
 public class Searchs {
 
-    
+
 }
