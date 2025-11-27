@@ -13,7 +13,7 @@ public class Nodo {
     private int dato;
     private Nodo siguiente;
 
-    public Nodo() {
+    public Nodo(int valor) {
     }
 
     public Nodo(int dato, Nodo siguiente) {
