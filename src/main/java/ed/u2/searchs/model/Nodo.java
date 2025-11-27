@@ -10,6 +10,7 @@ package ed.u2.searchs.model;
  * @author MikelMZ : Miguel Armas
  */
 public class Nodo {
+    public Nodo next;
     private int dato;
     private Nodo siguiente;
 

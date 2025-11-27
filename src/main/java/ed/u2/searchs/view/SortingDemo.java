@@ -11,6 +11,6 @@ package ed.u2.searchs.view;
  */
 public class SortingDemo {
 public static void main(String[] args) {
-        System.out.println("Hello World!");
+
     }
 }
