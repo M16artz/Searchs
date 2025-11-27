@@ -1,4 +1,4 @@
-package ed.u2.searchs;
+package ed.u2.searchs.model;
 
 /**
  * Paso 1: Primera Ocurrencia en Lista Enlazada Simple (SLL)

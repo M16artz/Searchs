@@ -1,4 +1,4 @@
-package ed.u2.searchs;
+package ed.u2.searchs.model;
 
 /**
  * Nodo para lista enlazada simple (Singly Linked List)

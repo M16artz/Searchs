@@ -1,4 +1,8 @@
-package ed.u2.searchs;
+package ed.u2.searchs.view;
+
+import ed.u2.searchs.model.BusquedaArray;
+import ed.u2.searchs.model.BusquedaSLL;
+import ed.u2.searchs.model.Node;
 
 /**
 Esta es la clasemain para el funcionamiento de as bsuquedas

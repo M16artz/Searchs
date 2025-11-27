@@ -1,5 +1,7 @@
 package ed.u2.searchs;
 
+import ed.u2.searchs.model.BusquedaSLL;
+import ed.u2.searchs.model.Node;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
