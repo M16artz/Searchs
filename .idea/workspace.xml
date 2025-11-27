@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ba24752-6d1a-409c-b6cd-37122efda8cf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ed/u2/searchs/Searchs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ed/u2/searchs/Searchs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ed/u2/searchs/model/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ed/u2/searchs/model/Nodo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ed/u2/searchs/view/SortingDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ed/u2/searchs/view/SortingDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="5ba24752-6d1a-409c-b6cd-37122efda8cf" name="Changes" comment="cambios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +62,27 @@
       <option name="presentableId" value="Default" />
       <updated>1764248352132</updated>
     </task>
+    <task id="LOCAL-00001" summary="cambios">
+      <option name="closed" value="true" />
+      <created>1764251886940</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1764251886940</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cambios">
+      <option name="closed" value="true" />
+      <created>1764251894968</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764251894968</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cambios" />
+    <option name="LAST_COMMIT_MESSAGE" value="cambios" />
   </component>
 </project>
