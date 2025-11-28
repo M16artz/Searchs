@@ -20,6 +20,7 @@ public class SortingDemo {
         int[] B = {5, 4, 3, 2, 1}; // Inverso
         int[] C = {1, 2, 3, 4, 5}; // Ordenado
         int[] D = {2, 2, 2, 2};    // Duplicados
+        int[] E ={1,2,3,3,4,5,6,3,7,8,9,3};
         //Valores de prueba sugeridos
         int[] keys = {7, 5, 2, 42};
 
@@ -67,7 +68,7 @@ public class SortingDemo {
         // Usamos Arreglo A: {8, 3, 6, 3, 9}
         // Buscar el 9 (está al final, peor caso de éxito)
         int keyVersusNoExiste = 5; 
-        System.out.println("--- Buscando clave: " + keyVersus + " en A ---");
+        System.out.println("--- Buscando clave: " + keyVersusNoExiste + " en A ---");
         
         int idxSecNoExiste = BusquedaArreglos.busquedaSecuencialTrazas(A, keyVersusNoExiste);
         
@@ -88,7 +89,21 @@ public class SortingDemo {
 
         int ub = BusquedaArreglos.upperBound(DAux, 2);
         System.out.println("UpperBound de 2 en D: " + ub + " (Debería ser 3)");
-
+          // --- PRUEBA TODAS LAS COINCIDENCIAS DENTRO DEL ARREGLO ---
+        //La prueba se realizará con E: {1,2,3,3,4,5,6,3,7,8,9,3} donde todos son duplicados
+        System.out.println("\n=================================================");
+        System.out.println("    PRUEBAS TODAS LAS COINCIDENCIAS ARREGLO ");
+        System.out.println("=================================================\n");
+        printArray(E);
+        List<Integer> ac=BusquedaArreglos.findAll(E, n->n==3);
+        System.out.print("FindAll (iguales a 3)(=3): ");
+        System.out.println("Todos los indices donde hay coincidencias");
+        System.out.print("[");
+        for (Integer a : ac) {
+            System.out.print(a+(", "));
+        }
+        System.out.println("\b\b]");
+        System.out.println();
         System.out.println("\n=================================================");
         System.out.println("    PRUEBAS CON LISTA ENLAZADA (SLL) ");
         System.out.println("=================================================\n");
@@ -118,6 +133,7 @@ public class SortingDemo {
     }
 
     private static void testArray(String nombre, int[] array, int[] keys) {
+        System.out.println("Devolverá el indice del valor, en caso de no existir devolverá -1");
         System.out.println("Dataset: " + nombre);
         printArray(array);
         for (int k : keys) {
