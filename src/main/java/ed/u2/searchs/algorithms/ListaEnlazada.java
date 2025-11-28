@@ -1,10 +1,12 @@
-package ed.u2.searchs.domain;
+package ed.u2.searchs.algorithms;
 
 import ed.u2.searchs.model.Nodo;
 
 /**
  *
- * @author MikelMZ : Miguel Armas
+ * @author M16artz : Miguel Armas
+ * @author RichardC022 : Richard Cajas
+ * @author Mzero11 : Mateo Silva
  */
 public class ListaEnlazada {
     private Nodo cabeza;

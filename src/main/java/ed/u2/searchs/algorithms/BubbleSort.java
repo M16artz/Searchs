@@ -1,12 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package ed.u2.searchs.domain;
+package ed.u2.searchs.algorithms;
 
 /**
  *
- * @author MikelMZ : Miguel Armas
+ * @author M16artz : Miguel Armas
+ * @author RichardC022 : Richard Cajas
+ * @author Mzero11 : Mateo Silva
  */
 public class BubbleSort {
 

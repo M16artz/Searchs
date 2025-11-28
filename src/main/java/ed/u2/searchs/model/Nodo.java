@@ -1,20 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
 package ed.u2.searchs.model;
 
 /**
  *
- * @author MikelMZ : Miguel Armas
+ * @author M16artz : Miguel Armas
+ * @author RichardC022 : Richard Cajas
+ * @author Mzero11 : Mateo Silva
  */
 public class Nodo {
-    public Nodo next;
+
     private int dato;
     private Nodo siguiente;
 
     public Nodo(int valor) {
+        this.dato = valor;
+        this.siguiente = null;
     }
 
     public Nodo(int dato, Nodo siguiente) {
@@ -22,7 +21,6 @@ public class Nodo {
         this.siguiente = siguiente;
     }
 
-    
     public int getDato() {
         return dato;
     }
@@ -38,6 +36,5 @@ public class Nodo {
     public void setSiguiente(Nodo siguiente) {
         this.siguiente = siguiente;
     }
-    
-    
+
 }
